@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Local credentials
+**/application-local.properties
+
+# SSL certificates and private keys
+**/*.p12
+**/*.key
+**/*.jks
+
+# Environment files
+.env
+.env.*
